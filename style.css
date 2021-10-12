@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+body{
+    padding:0;
+    width:auto;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* sidebar css starts here */
+
+.container > aside{
+    width:7%;
+    float:left;
+    background-color: whitesmoke;
+    box-shadow: 11px 13px 5px rgb(238, 216, 214);
+}
+
+
+.container section ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.container section .rsss{
+    padding-top:11px;
+}
+
+.container section .users{
+    padding-top:21px;
+}
+
+.container section .uni{
+    padding-top:21px;
+}
+
+.container section .sett{
+    padding-top:21px;
+    margin-bottom:435px;
+}
+
+.container section>ul>li>i {
+    font-size:22px;
+}
+
+[class^="text"] {
+    margin-left: -12px;
+    color:rgb(110, 109, 109);
+    font-size:11px;
+}
+
+
+/* main part css starts here */
+.container > main  {
+    float:left;
+    width:93%;
+    background-color:rgb(255, 246, 246) ;
+    margin-top:97px;
+    padding-bottom: 270px;
+}
+
+.container > main >section >h4{
+    margin-left: 34px;
+    margin-top:28px;
+}
+
+#Form_Sec{
+margin-left:167px;
+margin-top:34px;
+}
+
+form > #url{
+padding:9px 495px 9px 8px;
+border-radius: 9px;
+border-style: none;
+}
+
+#url::placeholder {
+    font-weight: bold;
+    color:gray;
+}
+
+form > p{
+    font-size:14px;
+    margin-left: 296px;
+    font-weight: bold;
+}
+
+form > #upload {
+    padding:72px 11px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+#upload::placeholder{
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:960px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container>aside>section {
+        width: 100%;
+    }
+    
+}
